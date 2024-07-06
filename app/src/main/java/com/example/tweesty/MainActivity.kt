@@ -40,21 +40,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             TweestyTheme {
-                Scaffold(
-                    topBar = {
-                        TopAppBar(
-                            title = { Text(text = "Tweetsy") },
-                            colors = TopAppBarDefaults.topAppBarColors(
-                                containerColor = Color.Black,
-                                titleContentColor = Color.White
-                            )
-                        )
-                    }
-                ) {
+                Scaffold() {
                     Box(modifier = Modifier.padding(it)) {
                         App()
                     }
-
                 }
             }
         }
