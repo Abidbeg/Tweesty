@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun App() {
     val navHostController = rememberNavController()
-    NavHost(navController = navHostController, startDestination = "categoryScreen") {
+    NavHost(navController = navHostController, startDestination = "categoryscreen") {
         composable("categoryScreen")
         {
             CategoryPopularScreen {
