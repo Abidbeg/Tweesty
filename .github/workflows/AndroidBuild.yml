@@ -27,4 +27,4 @@ jobs:
         uses: actions/upload-artifact@v4.3.4
         with:
           name: Tweesty.apk
-          path: app/build/output/apk/app-dubug.apk
+          path: app/build/output/apk/debug/app-dubug.apk
